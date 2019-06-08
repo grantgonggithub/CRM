@@ -140,3 +140,5 @@
 
 
 初始账户：admin 密码：123456
+
+![说明文档图片](https://github.com/grantgonggithub/CRM/blob/master/help.png)
