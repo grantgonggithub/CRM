@@ -141,6 +141,10 @@
 
 初始账户：admin 密码：123456
 
-作者：grant (巩建春 emaill : nnn987@126.com ; QQ:406333743;Tel:+86 15619212255)
+作者:     grant (巩建春)
+email:   nnn987@126.com
+QQ:      406333743
+Tel:     +86 15619212255
 
-![说明文档图片](https://github.com/grantgonggithub/CRM/blob/master/help.png)
+
+![说明文档图片](https://github.com/grantgonggithub/CRM/blob/master/help.jpg)
