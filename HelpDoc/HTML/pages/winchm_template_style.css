@@ -1,0 +1,95 @@
+html {
+	overflow-y:scroll;
+}
+
+body {
+	background-image: url(back.png);
+	background-repeat: repeat-x;
+	background-color: #FFFFFF;
+	padding: 0px;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 15px;
+	margin-right: 15px;
+}
+
+#winchm_template_button {
+	position: fixed; 
+	float: right; 
+	right: 15px; 
+	top: 15px;
+}
+
+#winchm_template_navigation {
+	padding: 0px;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-bottom: 15px;
+	margin-right: 0px;
+
+	font-size: 8pt;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #4A4A4A;
+	text-align: left;
+}
+
+#winchm_template_title {
+	padding: 0px;
+	margin-top: 15px;
+	margin-left: 0px;
+	margin-bottom: 15px;
+	margin-right: 0px;
+
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 22px;
+	font-weight: bold;
+	color: #005680;
+	text-align: left;
+}
+
+#winchm_template_content{
+	padding: 0px;
+	margin-top: 15px;
+	margin-left: 0px;
+	margin-bottom: 15px;
+	margin-right: 0px;
+
+	width: auto  !important;
+	width: 100%;
+}
+
+
+#winchm_template_footer {
+	padding: 0px;
+	margin-top: 15px;
+	margin-left: 0px;
+	margin-bottom: 15px;
+	margin-right: 0px;
+
+	padding-top: 7px;
+	border-width: 1px;
+	border-color: #c0c0c0;
+	border-top-style: solid;
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #575757;
+	text-align: left;
+}
+
+@media print
+{
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation a:link	{text-decoration: none;color: 004080}
+#winchm_template_navigation a:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation a:active {text-decoration: none; color: #004080}
+#winchm_template_navigation a:hover {text-decoration: none;color: #0000FF}
+
+a:link	{text-decoration: underline; color:#0033cc}
+a:visited  {text-decoration: underline; color: #0033cc}
+a:active {text-decoration: underline; color: #0033cc }
+a:hover {text-decoration: underline;color: #ff0000;}

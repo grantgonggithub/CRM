@@ -1,0 +1,491 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7FB9BBFF-5FEA-4524-9F2D-F90975FB75FA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CRM</RootNamespace>
+    <AssemblyName>CRM</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Release\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>CRM.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>ico128.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="IrisSkin2">
+      <HintPath>.\IrisSkin2.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ActionLog.cs" />
+    <Compile Include="ActionName.cs" />
+    <Compile Include="CommStatic.cs" />
+    <Compile Include="DBHelper.cs" />
+    <Compile Include="frmAddEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddEmployee.Designer.cs">
+      <DependentUpon>frmAddEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddUser.Designer.cs">
+      <DependentUpon>frmAddUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAdminMgr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAdminMgr.Designer.cs">
+      <DependentUpon>frmAdminMgr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCardMgr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCardMgr.Designer.cs">
+      <DependentUpon>frmCardMgr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCheckOnMgr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCheckOnMgr.Designer.cs">
+      <DependentUpon>frmCheckOnMgr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCloseAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCloseAccount.Designer.cs">
+      <DependentUpon>frmCloseAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmConsumeDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConsumeDetail.Designer.cs">
+      <DependentUpon>frmConsumeDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmConsumeHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConsumeHistory.Designer.cs">
+      <DependentUpon>frmConsumeHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmContact.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmContact.Designer.cs">
+      <DependentUpon>frmContact.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEventWaring.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEventWaring.Designer.cs">
+      <DependentUpon>frmEventWaring.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmIsRun.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmIsRun.Designer.cs">
+      <DependentUpon>frmIsRun.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRechargecs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRechargecs.Designer.cs">
+      <DependentUpon>frmRechargecs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShortCut.cs" />
+    <Compile Include="SystemSetting\UCBackAndReBack.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SystemSetting\UCBackAndReBack.Designer.cs">
+      <DependentUpon>UCBackAndReBack.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemSetting\UCCompanyInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SystemSetting\UCCompanyInfo.Designer.cs">
+      <DependentUpon>UCCompanyInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemSetting\UCOtherSetting.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SystemSetting\UCOtherSetting.Designer.cs">
+      <DependentUpon>UCOtherSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemSetting\UCRoleSetting.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SystemSetting\UCRoleSetting.Designer.cs">
+      <DependentUpon>UCRoleSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemSetting\UcWorkTime.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SystemSetting\UcWorkTime.Designer.cs">
+      <DependentUpon>UcWorkTime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemSetting\UserTypeAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemSetting\UserTypeAdd.Designer.cs">
+      <DependentUpon>UserTypeAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCUserInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCUserInfo.Designer.cs">
+      <DependentUpon>UCUserInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Product\frmAddProductName.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Product\frmAddProductName.Designer.cs">
+      <DependentUpon>frmAddProductName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Product\frmEmployeeMgr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Product\frmEmployeeMgr.Designer.cs">
+      <DependentUpon>frmEmployeeMgr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmProductsMgr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProductsMgr.Designer.cs">
+      <DependentUpon>frmProductsMgr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Product\ucCommProductPrice.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Product\ucCommProductPrice.Designer.cs">
+      <DependentUpon>ucCommProductPrice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Product\ucProductHelperMsg.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Product\ucProductHelperMsg.Designer.cs">
+      <DependentUpon>ucProductHelperMsg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Product\ucPromoteDiscount.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Product\ucPromoteDiscount.Designer.cs">
+      <DependentUpon>ucPromoteDiscount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemSetting\frmSystemSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemSetting\frmSystemSetting.Designer.cs">
+      <DependentUpon>frmSystemSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUserMgr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUserMgr.Designer.cs">
+      <DependentUpon>frmUserMgr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="skinBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemSetting\UCUserTypeAndEmployeeMgr.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SystemSetting\UCUserTypeAndEmployeeMgr.Designer.cs">
+      <DependentUpon>UCUserTypeAndEmployeeMgr.cs</DependentUpon>
+    </Compile>
+    <Content Include="help.chm">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\OutPut.png" />
+    <EmbeddedResource Include="frmAddEmployee.resx">
+      <DependentUpon>frmAddEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddUser.resx">
+      <DependentUpon>frmAddUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAdminMgr.resx">
+      <DependentUpon>frmAdminMgr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCardMgr.resx">
+      <DependentUpon>frmCardMgr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCheckOnMgr.resx">
+      <DependentUpon>frmCheckOnMgr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCloseAccount.resx">
+      <DependentUpon>frmCloseAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConsumeDetail.resx">
+      <DependentUpon>frmConsumeDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConsumeHistory.resx">
+      <DependentUpon>frmConsumeHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmContact.resx">
+      <DependentUpon>frmContact.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEventWaring.resx">
+      <DependentUpon>frmEventWaring.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmIsRun.resx">
+      <DependentUpon>frmIsRun.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRechargecs.resx">
+      <DependentUpon>frmRechargecs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemSetting\UCBackAndReBack.resx">
+      <DependentUpon>UCBackAndReBack.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemSetting\UCCompanyInfo.resx">
+      <DependentUpon>UCCompanyInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemSetting\UCOtherSetting.resx">
+      <DependentUpon>UCOtherSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemSetting\UCRoleSetting.resx">
+      <DependentUpon>UCRoleSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemSetting\UcWorkTime.resx">
+      <DependentUpon>UcWorkTime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemSetting\UserTypeAdd.resx">
+      <DependentUpon>UserTypeAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCUserInfo.resx">
+      <DependentUpon>UCUserInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Product\frmAddProductName.resx">
+      <DependentUpon>frmAddProductName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Product\frmEmployeeMgr.resx">
+      <DependentUpon>frmEmployeeMgr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProductsMgr.resx">
+      <DependentUpon>frmProductsMgr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Product\ucCommProductPrice.resx">
+      <DependentUpon>ucCommProductPrice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Product\ucProductHelperMsg.resx">
+      <DependentUpon>ucProductHelperMsg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Product\ucPromoteDiscount.resx">
+      <DependentUpon>ucPromoteDiscount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemSetting\frmSystemSetting.resx">
+      <DependentUpon>frmSystemSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUserMgr.resx">
+      <DependentUpon>frmUserMgr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="skinBase.resx">
+      <DependentUpon>skinBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MP10.ssk">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemSetting\UCUserTypeAndEmployeeMgr.resx">
+      <DependentUpon>UCUserTypeAndEmployeeMgr.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="App.config" />
+    <Content Include="INI.sqlite">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="IrisSkin2.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\consulm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\product.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\empleey.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\setting0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Acount.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\help.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico128.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DBAcess\DBAcess.csproj">
+      <Project>{25352743-08B4-48E6-92E1-0A58C0AD760E}</Project>
+      <Name>DBAcess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Reader\Reader.csproj">
+      <Project>{7BF82F49-91C8-445B-95D9-E2CA5DE6179F}</Project>
+      <Name>Reader</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Tools\Tools.csproj">
+      <Project>{980CEAD6-A620-4CBA-997D-1C255BF8EF0D}</Project>
+      <Name>Tools</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-0084.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-0094.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-0652.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-1106.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-0535.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\card-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\change-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\work.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WorkerMan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rcharge.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\monthCalendar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Add1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Waring.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Waring1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\detail1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\print.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ico128.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

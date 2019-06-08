@@ -1,0 +1,109 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=E:\MyWork\CRM\HelpDoc\CHM\help.chm
+Contents file=help.hhc
+Default Font=
+Default Window=main
+Default topic=4e0030017efc8ff0.htm
+Display compile progress=No
+Error log file=help.log
+Full-text search=Yes
+Index file=
+Language=0x0804
+Title=宏图会员管理系统帮助文档
+
+[WINDOWS]
+main="宏图会员管理系统帮助文档","help.hhc","","4e0030017efc8ff0.htm","4e0030017efc8ff0.htm","4e0030017efc8ff0.htm","",,,0x33520,182,0x307E,[50,50,950,700],0xB0000,0x0,,0,0,,0,
+
+[FILES]
+4e0030017efc8ff0.htm
+4e093001540d8bcd89e391ca.htm
+4e8c30018bfb8005.htm
+56db3001529f80fd6a215757.htm
+btn_next_g.gif
+btn_next_n.gif
+btn_prev_g.gif
+btn_prev_n.gif
+doc.files\image001.png
+doc.files\image002.png
+doc.files\image003.png
+doc.files\image004.jpg
+doc.files\image005.jpg
+doc.files\image006.jpg
+doc.files\image007.jpg
+doc.files\image008.jpg
+doc.files\image009.png
+doc.files\image010.jpg
+doc.files\image011.jpg
+doc.files\image012.jpg
+doc.files\image013.jpg
+doc.files\image014.jpg
+doc.files\image015.jpg
+doc.files\image016.jpg
+doc.files\image017.jpg
+doc.files\image018.jpg
+doc.files\image019.jpg
+doc.files\image020.jpg
+doc.files\image021.jpg
+doc.files\image022.jpg
+doc.files\image023.jpg
+doc.files\image024.jpg
+doc.files\image025.jpg
+doc.files\image026.jpg
+doc.files\image027.jpg
+doc.files\image028.jpg
+doc.files\image029.jpg
+doc.files\image030.jpg
+doc.files\image031.jpg
+doc.files\image032.jpg
+doc.files\image033.jpg
+doc.files\image034.jpg
+doc.files\image035.jpg
+doc.files\image036.jpg
+doc.files\image037.jpg
+doc.files\image038.jpg
+doc_style.css
+ff084e00ff093001767b9646.htm
+ff084e03ff093001524d53f07ed38d26.htm
+ff084e09ff0930014ea754c17ba17406.htm
+ff084e5dff0930016d888d3967e58be2.htm
+ff084e8cff0930017cfb7edf8bbe7f6e.htm
+ff084e94ff0930014f1a54587ba17406.htm
+ff08516bff0930014f1a54585145503c.htm
+ff08516dff0930014e3b754c9762529f80fd533a57df8bf4660e.htm
+ff0853414e00ff093001536172477ba17406.htm
+ff0853414e09ff0930014e8b4ef663d09192.htm
+ff0853414e8cff0930018d2653f77ba17406.htm
+ff0853414e94ff09300151764ed68bf4660eff1a.htm
+ff08534156dbff09300179bb5f0095015c4f.htm
+ff085341ff093001800352e47ba17406.htm
+ff0856dbff09300154585de57ba17406.htm
+hgrad.gif
+logo.gif
+winchm_template_style.css
+
+[ALIAS]
+CID_4E0030017EFC8FF0 = 4e0030017efc8ff0.htm
+CID_4E8C30018BFB8005 = 4e8c30018bfb8005.htm
+CID_4E093001540D8BCD89E391CA = 4e093001540d8bcd89e391ca.htm
+CID_56DB3001529F80FD6A215757 = 56db3001529f80fd6a215757.htm
+CID_FF084E00FF093001767B9646 = ff084e00ff093001767b9646.htm
+CID_FF084E8CFF0930017CFB7EDF8BBE7F6E = ff084e8cff0930017cfb7edf8bbe7f6e.htm
+CID_FF084E09FF0930014EA754C17BA17406 = ff084e09ff0930014ea754c17ba17406.htm
+CID_FF0856DBFF09300154585DE57BA17406 = ff0856dbff09300154585de57ba17406.htm
+CID_FF084E94FF0930014F1A54587BA17406 = ff084e94ff0930014f1a54587ba17406.htm
+CID_FF08516DFF0930014E3B754C9762529F80FD533A57DF8BF466 = ff08516dff0930014e3b754c9762529f80fd533a57df8bf4660e.htm
+CID_FF084E03FF093001524D53F07ED38D26 = ff084e03ff093001524d53f07ed38d26.htm
+CID_FF08516BFF0930014F1A54585145503C = ff08516bff0930014f1a54585145503c.htm
+CID_FF084E5DFF0930016D888D3967E58BE2 = ff084e5dff0930016d888d3967e58be2.htm
+CID_FF085341FF093001800352E47BA17406 = ff085341ff093001800352e47ba17406.htm
+CID_FF0853414E00FF093001536172477BA17406 = ff0853414e00ff093001536172477ba17406.htm
+CID_FF0853414E8CFF0930018D2653F77BA17406 = ff0853414e8cff0930018d2653f77ba17406.htm
+CID_FF0853414E09FF0930014E8B4EF663D09192 = ff0853414e09ff0930014e8b4ef663d09192.htm
+CID_FF08534156DBFF09300179BB5F0095015C4F = ff08534156dbff09300179bb5f0095015c4f.htm
+CID_FF0853414E94FF09300151764ED68BF4660EFF1A = ff0853414e94ff09300151764ed68bf4660eff1a.htm
+
+
+[MAP]
+#include help.h
+
