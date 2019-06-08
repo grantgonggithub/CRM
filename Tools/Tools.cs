@@ -20,7 +20,7 @@ namespace Tools
 {
    public class Tools
     {
-       private readonly static string passWord = "gongjianchun!@#$%^&*()brysjhhrhl0123456789";
+       private readonly static string passWord = "grantgongjianchun!@#$%^&*()brysjhhrhl0123456789";
         /// <summary>
         /// 密码MD5加密
         /// </summary>
