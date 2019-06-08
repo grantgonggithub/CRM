@@ -147,4 +147,4 @@ QQ:      406333743
 Tel:     +86 15619212255
 
 
-![说明文档图片](https://github.com/grantgonggithub/CRM/blob/master/help.jpg)
+![说明文档图片](https://github.com/grantgonggithub/CRM/blob/master/help.png)
