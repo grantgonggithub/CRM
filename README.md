@@ -146,7 +146,7 @@ email:   nnn987@126.com
 QQ:      406333743
 Tel:     +86 15619212255
 
-说明：   为了支持开源和犒劳作者的辛苦付出，你可以向作者捐赠，一表对作者辛苦劳动的尊重
+说明：   为了支持开源和犒劳作者的辛苦付出，你可以向作者捐赠，一表对作者辛苦劳动的尊重（捐赠二维码见下图）
 
 ![捐赠二维码](https://github.com/grantgonggithub/CRM/blob/master/qrcode.png?raw=true)
 
